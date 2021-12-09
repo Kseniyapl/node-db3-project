@@ -60,6 +60,7 @@ router.get('/:scheme_id', checkSchemeId, (req, res, next) => {
       res.json(scheme)
     })
     .catch(next)
+   
 })
 
 /*
@@ -89,6 +90,7 @@ router.get('/:scheme_id/steps', checkSchemeId, (req, res, next) => {
       res.json(steps)
     })
     .catch(next)
+   
 })
 
 /*
